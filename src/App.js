@@ -12,7 +12,6 @@ function App() {
       params: { query: term },
     });
     setImageList(response.data.results);
-    // console.log(imageList)
   };
 
   return (
